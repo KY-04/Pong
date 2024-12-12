@@ -41,4 +41,12 @@ public class VolumeSlider : MonoBehaviour
     {
         PlayerPrefs.SetFloat("Music", Volume_Slider.value);
     }
+
+    public void IsFullscreen(bool SetFullScreen)
+    {
+
+        Screen.fullScreen = SetFullScreen;
+
+        Debug.Log("Full Screen is set");
+    }
 }
