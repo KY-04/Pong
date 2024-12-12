@@ -47,6 +47,7 @@ public class VolumeSlider : MonoBehaviour
 
         Screen.fullScreen = SetFullScreen;
 
+
         Debug.Log("Full Screen is set");
     }
 }
